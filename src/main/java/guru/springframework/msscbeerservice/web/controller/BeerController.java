@@ -12,7 +12,7 @@ import java.util.UUID;
 @RestController
 public class BeerController {
 
-    @GetMapping("{/beerId}")
+    @GetMapping("/{beerId}")
     public ResponseEntity<BeerDto> getBeerById(@PathVariable("beerId") UUID beerId) {
 
         // todo impl
@@ -20,16 +20,16 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity saveNewBeer(@RequestBody BeerDto beerDto) {
+    public ResponseEntity<BeerDto> saveNewBeer(@RequestBody BeerDto beerDto) {
 
         // todo impl
-        return new ResponseEntity(HttpStatus.CREATED);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-    @PutMapping("{/beerId}")
-    public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId,@RequestBody BeerDto beerDto) {
+    @PutMapping("/{beerId}")
+    public ResponseEntity<BeerDto> updateBeerById(@PathVariable("beerId") UUID beerId,@RequestBody BeerDto beerDto) {
 
         // todo impl
-        return new ResponseEntity(HttpStatus.NO_CONTENT);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
