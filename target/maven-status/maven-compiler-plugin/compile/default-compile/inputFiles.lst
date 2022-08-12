@@ -1,6 +1,9 @@
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\MsscBeerServiceApplication.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\services\BeerServiceImpl.java
+E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\services\inventory\BeerInventoryServiceRestTemplateImpl.java
+E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\config\CacheConfig.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\controller\MvcExceptionHandler.java
+E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\services\inventory\model\BeerInventoryDto.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\controller\BeerController.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\mappers\DateMapper.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\controller\NotFoundException.java
@@ -12,3 +15,5 @@ E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springf
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\model\BeerPagedList.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\model\BeerStyleEnum.java
 E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\domain\Beer.java
+E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\services\inventory\BeerInventoryService.java
+E:\Gaurav\Projects\IntellijProjects\mssc-beer-service\src\main\java\guru\springframework\msscbeerservice\web\mappers\BeerMapperDecorator.java
